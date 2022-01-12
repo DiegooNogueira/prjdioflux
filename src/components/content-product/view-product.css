@@ -1,0 +1,13 @@
+.productContent{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    width: 1184px;
+    margin: 0 auto;
+}
+.productContent--area--image{
+    width: 32%;
+}
+.productContent--area--info{
+    width: 68%;
+}   
+
+

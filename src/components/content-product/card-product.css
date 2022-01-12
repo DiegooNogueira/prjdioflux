@@ -1,0 +1,48 @@
+.cardProduct{
+    border: 1px solid rgb(102, 204, 18);
+    border-radius: 4px;
+    display: block;
+    margin: 8px;
+    transition: all ease 0.2s;
+}
+.cardProduct:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    cursor: pointer;
+}
+
+.cardProduct-content{
+    margin: 8px;
+}
+.cardProduct--image{
+    width: 100%;
+}
+ .cardProduct--title{
+    font-size: 1rem;
+ width: 100%;
+}
+.cardProduct--price{
+    font-size: 0.9rem;
+    text-align: end;
+    display: block;
+    color: green;
+    font-weight: bold;
+}
+.cardProduct--button{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(102, 204, 18);;
+    padding: 8px 0 8px 0; 
+    margin-top: 8px;
+    
+    transition: all ease 0.2s;
+    border: white 1px solid;
+    font-size: 1rem;
+    color: white;
+}
+.cardProduct:hover .cardProduct--button{
+    background-color: white;
+    color: rgb(102, 204, 18);;
+    border:1px solid rgb(102, 204, 18);
+    font-weight: bold;
+    
+}
